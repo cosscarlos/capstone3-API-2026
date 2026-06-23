@@ -20,6 +20,10 @@ public class CartItem
     @Column(name = "quantity")
     private int quantity = 1;
 
+    @Transient
+    private Product product;
+
+
     public int getCartItemId()
     {
         return cartItemId;
@@ -58,5 +62,13 @@ public class CartItem
     public void setQuantity(int quantity)
     {
         this.quantity = quantity;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
     }
 }
