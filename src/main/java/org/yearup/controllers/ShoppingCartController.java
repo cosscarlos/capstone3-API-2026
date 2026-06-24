@@ -93,6 +93,4 @@ public class ShoppingCartController
 
         return shoppingCartService.clearCart(userId);
     }
-
-
 }
