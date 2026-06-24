@@ -52,7 +52,7 @@ public class ShoppingCartController
     // return the updated cart with status 201 Created
 
 
-    @PostMapping
+    @PostMapping("products/{productId}")
     public ResponseEntity<ShoppingCart> addProduct(@PathVariable int productId, Principal principal){
         String userName = principal.getName();
         User user = userService.getByUserName(userName);
@@ -71,7 +71,7 @@ public class ShoppingCartController
     // the BODY should be a ShoppingCartItem - quantity is the only value that will be updated; return the cart (200 OK)
 
 
-    @PutMapping("products/{productsId}")
+    @PutMapping("products/{productId}")
     public ShoppingCart updateProduct(@PathVariable int productId, @RequestBody CartItem item, Principal principal){
         String userName = principal.getName();
         User user = userService.getByUserName(userName);
