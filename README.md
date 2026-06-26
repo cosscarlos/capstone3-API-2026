@@ -38,11 +38,13 @@ Displays the product catalog where users can search and filter items.
 
 ### 2. User Authentication
 The login modal requiring valid credentials to generate the JWT token and allow purchases.
-![User Login](./images/login_screen.png)
+<img width="907" height="562" alt="image" src="https://github.com/user-attachments/assets/e47e09af-7f6a-4d05-aaad-8fa6e7f51871" />
+
 
 ### 3. API Documentation (Swagger UI)
 The automatically generated interface that allows exploring and testing each API endpoint directly from the browser.
-![Swagger UI](./images/swagger_screen.png)
+<img width="1873" height="1283" alt="image" src="https://github.com/user-attachments/assets/429ce905-0ff0-4616-9285-3ffe7d94aa4e" />
+
 
 ---
 
