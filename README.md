@@ -33,7 +33,8 @@ The application is designed following a Spring Boot layered architecture:
 
 ### 1. Main Store Interface
 Displays the product catalog where users can search and filter items.
-![Product Catalog](./images/home_screen.png)
+<img width="468" height="318" alt="image" src="https://github.com/user-attachments/assets/941c59d9-a124-4957-995d-eff10d0af205" />
+
 
 ### 2. User Authentication
 The login modal requiring valid credentials to generate the JWT token and allow purchases.
